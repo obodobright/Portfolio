@@ -8,7 +8,7 @@ import Skill from "../Component/skillData";
 
 const Skills = () => {
   return (
-    <div className=" py-[40px] px-[8.5vw]">
+    <div className=" py-[40px] px-[8.5vw]" id="skill">
       <h2 className="text-4xl font-bold text-[#020617]  mb-6">
         My <span className="text-[#00488C]">skills</span>
       </h2>

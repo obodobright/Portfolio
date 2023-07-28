@@ -7,7 +7,7 @@ import { workData } from "../Component/workData";
 import "./home.css";
 const Work = () => {
   return (
-    <div className="py-[40px] px-[8.5vw]">
+    <div className="py-[40px] px-[8.5vw]" id="portfolio">
       <h3 className="text-4xl font-bold text-[#020617]  mb-2">
         My <span className="text-[#00488C]">portfolio</span>
       </h3>
