@@ -96,7 +96,7 @@ export const workData = [
       },
     ],
     github: "https://github.com",
-    live: "https://sportstatix.com/",
+    live: "https://dev.sportstatix.com/",
   },
   {
     img: img10,
