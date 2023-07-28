@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <div className="containerDiv py-[40px] px-[8.5vw] flex gap-4">
         {/* <Fade bottom> */}
-        <div>
+        <div className="mobileContainer">
           {/* <Typist cursor={{ hideWhenDone: true, show: false }} startDelay={3}> */}
           <h1 className="text-slate-950 heroText">
             Hi, I'm <span className="text-[#00488C]">Bright</span>{" "}

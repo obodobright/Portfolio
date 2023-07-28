@@ -94,6 +94,12 @@
         justify-content: center;
         flex-direction: column-reverse;
     }
+    .mobileContainer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
     .heroText {
         font-size: 40px;
         text-align: center;
