@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+.social {
+    position: relative;
+}
+
+.mobile-socials {
+    display: none;
+}
+
+.heroText {
+    font-size: 70px;
+    font-family: "Anton", sans-serif;
+    font-display: block;
+}
+
+.web-lg {
+    display: block;
+}
+
+.mob-sm {
+    display: none;
+}
+
+.linkText {
+    color: #00488c;
+    font-size: 30px;
+    transition: all 350ms;
+    transform: scale(1);
+}
+
+.linkText:hover {
+    color: #020617;
+    transform: scale(1.03);
+}
+
+.about,
+.skills,
+.work {
+    max-width: 1024px;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.work-project {
+    grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+    padding: 10px;
+    margin: 2.5rem;
+}
+
+.icon-holder {
+    display: flex;
+    align-items: center;
+}
+
+.img-width {
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 350ms;
+}
+
+.url-item {
+    position: relative;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px;
+}
+
+.url-item::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 0.18rem;
+    bottom: 4px;
+    left: 0;
+    background-color: #00154f;
+    visibility: hidden;
+}
+
+.url-item:hover::after {
+    visibility: visible;
+    transition: all 350ms;
+}
+
+@media (max-width: 768px) {
+    .containerDiv {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .heroText {
+        font-size: 40px;
+        text-align: center;
+    }
+    .mobile-socials {
+        display: block;
+    }
+    .about,
+    .skills,
+    .work {
+        width: 100%;
+        padding: 20px;
+    }
+    .work-project {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 10px;
+        margin: 0.5rem;
+    }
+    .project-img {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .m-res {
+        margin-bottom: 20px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    .social-mobile {
+        display: none;
+    }
+    .social::before {
+        display: none;
+    }
+    .cardContainer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    }
+    .icon-holder div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .web-lg {
+        display: none;
+    }
+    .mob-sm {
+        display: block;
+    }
+}
